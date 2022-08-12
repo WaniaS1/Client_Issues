@@ -1,0 +1,62 @@
+#movie img{
+	transition: transform 0.5s ease-in-out;
+}
+
+#movie img:hover{
+	-webkit-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	transform: translateY(-10px);
+	opacity: 0.9;
+}
+
+#intro i{
+	position: relative;
+	left: 1.2rem;
+	top: 0.2rem;
+	font-size: 1.2rem;
+}
+#db > div > a:hover{
+	cursor: pointer;
+}
+#intro, #Q_A{
+    /* background-image: url(/assets/image/background_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom; */
+    padding: 70px 20px;
+  }
+  nav, #movie, footer{
+    background-image: url(/assets/image/background_0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 70px 20px;
+  }
+#warning {
+	font-size: 1.4rem;
+}
+@media screen and (max-width: 768px){
+	#intro, #Q_A, nav, #movie, footer{
+		padding: 30px 0px;
+	}
+	#warning{
+		font-size: 1.0rem;
+		padding: 1rem 0.3rem;
+	}
+	.postAnim h5{
+		font-size: 0.8rem;
+	}
+	.postAnim{
+		font-size: 0.7rem;
+	}
+  }
+.postAnim{
+	opacity: 1.5;
+	transition: all 1s;
+	max-width: 2000px;
+	
+}
+.preAnim{
+	opacity: 0;
+	max-width: 0;
+}
